@@ -1,5 +1,5 @@
     body {
-        font-family: Verdana, Geneva, Arial, sans-serif;
+        font-family: 'Lobster', cursive;
         font-size:25px
 
         }           
@@ -13,8 +13,7 @@
         padding-bottom: 10px;
         text-align: left; 
         font-family: 'Acme', sans-serif;
-        margin-left: 15px;
-        margin-right: 15px;
+
             }
     
     footer {
@@ -25,17 +24,17 @@
         font-weight: bolder;
         padding-top: 10px;
         padding-bottom: 10px;
-        text-align: right;
+        text-align:right;
+        padding-right:20px;/*先設定靠右，再設右padding*/ 
         font-family: 'Acme', sans-serif;
-        margin-left: 15px;
-        margin-right: 15px;
+        
     } 
 
     .Topic{
         background-image: url('9.jpg');
         background-size:cover;
-        margin-left: 15px;
-        margin-right: 15px;
+        padding:0;
+        margin:0;
         width:100%;
     }
 
@@ -50,8 +49,8 @@
         height:200px;
         line-height:200px;
         text-align:center;
-        margin-left: 15px;
-        margin-right: 15px;
+        padding:0;
+        margin:0;
     }
 
 .
@@ -59,6 +58,9 @@
 .menubar{margin: 0px auto;
          padding:0;
          list-style:none;
+         text-align:center;
+         padding-left:50%;
+         padding-right:50%;
           }
          /* 取消ul預設的內縮及樣式 */
 
@@ -87,7 +89,7 @@ line-height:50px;}
 
 #Wrapper{ 
         width:100%;
-        height:100%;
+        height:auto;
         font size: 250%;
         font-family: 'Lobster', cursive;
         border: solid red 2px;
@@ -116,7 +118,7 @@ line-height:50px;}
         text-align:center;
         line-height: 600px;
         margin:15px;
-        
+
     }
    #HostelInfo{
         padding: 0px;
@@ -131,23 +133,16 @@ line-height:50px;}
     }
 
       
-    h1 {
-        padding: 10px;
+    h1,content,.wrapper{
         width: 100%;
         font size: 200%;
-        font-family: Arial;
+        font-family: 'Lobster', cursive;
         border: solid red 2px;
         text-align:center;
-        margin-top:10px;
-        margin-bottom:10px;       
+        padding-top:10px;
+        padding-bottom:10px;   
     }  
 
-    .content {
-        font size: 30px;
-        font-family: Arial;
-        border: solid red 2px;
-        margin:15px;
-    
     }  
     .reminder {
         padding: 25px;
@@ -171,5 +166,7 @@ line-height:50px;}
     .pic{width:100%;
          height:auto;
          text-align:center;}
-
+    img{
+        border:3px solid black;
+    }
     
